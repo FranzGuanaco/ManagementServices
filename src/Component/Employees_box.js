@@ -1,14 +1,9 @@
 
-
  const Box = () => {
-
-
  
-  return (<div className='employee_box_style'></div>
-  )
+  return (<div className='employee_box_style'></div>)
   
 }
-
 
 
 export default Box;

@@ -1,16 +1,21 @@
-
 import "./App.css";
 import Homepage from "./Component/Homepage";
+import Navbar from "./Component/Navbar";
 import React from "react";
+import Menu from "./Component/Menu";
 
   
 function App() {
     
-    return (
+    return [
         <div className='App'>
-        <Homepage />
+        <Navbar/>
+        <Menu />
+        <Homepage/>
         </div>
-    );
+      
+        
+    ];
 }
   
 export default App;
